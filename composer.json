@@ -1,0 +1,22 @@
+{
+  "name": "remotemethod/socialite-teamviewer",
+  "description": "Laravel Socialite TeamViewer libraries.",
+  "keywords": ["oauth2", "laravel", "socialite", "teamviewer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugene Gavalidi",
+      "email": "remotemethod@yahoo.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "5.2.*",
+    "laravel/socialite": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RemoteMethod\\Socialite\\TeamViewer\\": "src/"
+    }
+  }
+}
